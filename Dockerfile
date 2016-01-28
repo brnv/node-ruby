@@ -11,4 +11,5 @@ RUN apt-get install -y \
   ruby-dev
 
 RUN gem install --no-ri --no-rdoc \
-  bundler
+  bundler \
+  slim
